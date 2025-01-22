@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+/* Header */
+h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin: 0;
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 1.2em;
+    margin: 20px auto;
+    max-width: 800px;
+    line-height: 1.5;
+}
+
+/* Color Buttons */
+.color-buttons {
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+/* Button Colors */
+#grey {
+    background-color: grey;
+}
+
+#white {
+    background-color: white;
+    border: 2px solid #333; /* Make white button visible */
+}
+
+#blue {
+    background-color: rgb(5, 5, 214);
+    border: 2px solid #333; /* Make white button visible */
+}
+
+#yellow {
+    background-color: yellow;
+    border: 2px solid #333; /* Make white button visible */
+}
+
+#purple {
+    background-color: rgb(6, 128, 0);
+    border: 2px solid #333; /* Make white button visible */
+}
+
+/* Button Hover Effects */
+.button:hover {
+    transform: scale(1.2);
+    border-color: #333;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+#contact h2 {
+    margin-bottom: 10px;
+    font-size: 1.8em;
+}
+
+#contact p {
+    font-size: 1em;
+    margin: 10px auto;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact li {
+    margin: 5px 0;
+}
+
+#contact a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    p {
+        font-size: 1em;
+    }
+
+    .button {
+        width: 40px;
+        height: 40px;
+        margin: 8px;
+    }
+
+    #contact h2 {
+        font-size: 1.5em;
+    }
+}
